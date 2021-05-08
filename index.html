@@ -425,19 +425,16 @@
                 <label for="feedback"  class="form-label">Комментарий</label>
                 <textarea name="feedback" id="feedback" placeholder="Введите текст" class="form-message"></textarea>
             </div>
-            <label class="policy">
-                <input type="checkbox" name="policy" class="checkbox" required>
-                <span class="checkbox-unchecked"></span>
-                    <svg class="icon-check">
-                    <use href="./images/icons/icons.svg#check"></use>
-                    </svg>
-                <div class="policy-label">
-                    Соглашаюсь с рассылкой и принимаю
-                    <a href="#" class="policy-link" target="_blank" rel="noopener noreferrer">
-                    Условия договора
-                    </a>
-                </div>
-            </label>
+                <label class="policy">
+                    <input type="checkbox" name="confirm" id="confirm" class="form-checkbox visually-hidden" required>
+                    <span class="checkbox"></span>
+        
+                    Соглашаюсь с рассылкой и принимаю  
+                        <a href="#" class="policy-link" target="_blank" rel="noopener noreferrer"> 
+                        Условия договора
+                        </a>
+                  
+                    </label>
             <button type="submit" class="form-btn">Отправить</button>
         </form>
     </div>
